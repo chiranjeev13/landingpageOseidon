@@ -1,0 +1,401 @@
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-background-desktop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 100;
+}
+
+.video-background-mobile {
+  display: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.company {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+}
+
+.company img {
+  max-width: auto;
+  height: auto;
+}
+
+.company-info {
+  color: #f0ebeb;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  align-items: flex-start;
+}
+
+.company-info p {
+  margin: 0;
+  color: #f0ebeb;
+}
+
+.company-info h2 {
+  margin: auto;
+  color: #f0ebeb;
+  align-items: flex-start;
+}
+
+.logo-img {
+  margin-top: 1.5rem;
+
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-left: 2rem;
+  padding-left: 2rem;
+}
+
+.social-media img {
+  font-size: 35;
+  width: 1.8rem;
+  height: auto;
+}
+
+.launch-button {
+  background-color: transparent;
+  color: white;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+  border-radius: 1.2rem;
+  border: 0.1rem solid #1987FF;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 2.2rem;
+  padding-left: 2rem;
+  color: white;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.redesign-heading {
+  font-size: 4rem;
+  display: inline-block;
+  padding-left: 1rem;
+  margin: 2rem;
+}
+
+.body-info {
+  font-size: 2rem;
+  color: white;
+  margin-top: 0.1rem;
+  padding-left: 2rem;
+}
+
+.redesign-heading {
+  font-size: 3.5rem;
+  color: white;
+  display: inline-block;
+  margin: 2rem 0;
+  margin-bottom: 0.2rem;
+
+}
+
+.redesign-text {
+  padding-left: 1rem;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem white;
+  -webkit-text-stroke-color: white;
+}
+
+.ben {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 3.5rem;
+}
+
+.benefits {
+  color: white;
+  text-align: left;
+  display: block;
+  align-items: center;
+}
+
+.benefit-text {
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+  color: white;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 3.3rem;
+  margin-top: 8rem;
+  text-align: left;
+}
+
+.news p {
+  color: #f0ebeb;
+  margin-top: 0;
+  margin: 0;
+}
+
+.news span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white
+}
+
+.benefits img {
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+}
+
+.powered {
+  font-family: 0.5rem;
+  font-size: 1rem;
+  color: #f0ebeb;
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 3.5rem;
+  display: flex;
+  align-items: center;
+  color: #f0ebeb;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.powered img {
+  width: 5rem;
+  height: auto;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.powered p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.news p1 {
+  font-size: 2rem;
+  color: #f0ebeb;
+}
+
+.email-box {
+  border: 0.1rem solid #1987FF;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  width: 12rem;
+  background: linear-gradient(to right, #062b51, #1e569233);
+
+}
+
+.email-input {
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  width: 50%;
+  background: transparent;
+
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+  padding-left: 0rem;
+}
+
+.email-box::before {
+  content: '';
+  position: absolute;
+  width: 2rem;
+  height: 2.7rem;
+  top: calc(50% - 1.35rem);
+  left: 100%;
+  background: linear-gradient(to left, #4c8ac8, #0666cc33);
+  z-index: -1;
+  border-radius: 2px;
+}
+
+.blue-ball {
+  width: 2.7rem;
+  height: 2.7rem;
+  background-color: #1987FF;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.social-media-phone {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .video-background-mobile {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    min-height: 130%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover;
+    display: block;
+  }
+
+  .video-background-desktop {
+    display: none;
+  }
+
+  .content {
+    padding: 0rem 0.5rem;
+  }
+
+  .launch-button {
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    width: 35%;
+    height: 20%;
+  }
+
+  .redesign-text {
+    padding-left: 0;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .main-text {
+    font-size: 1.2rem;
+    padding-left: 0rem;
+    color: white;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .redesign-heading {
+    font-size: 2.8rem;
+    margin: 1rem 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .redesign-text {
+    color: black;
+  }
+
+  .redesign-heading h1 {
+    gap: 0.5rem;
+  }
+
+  .body-info {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .news {
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+
+  .news span {
+    font-size: 1.5rem;
+  }
+
+  .ben {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 0.1rem;
+  }
+
+  .benefits {
+    margin-left: 1rem;
+    text-align: left;
+  }
+
+  .benefit-text {
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  .email-box {
+    width: 12rem;
+  }
+
+  .email-box::before {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 2.7rem;
+    top: calc(50% - 1.35rem);
+    left: 100%;
+    background: linear-gradient(to left, #4c8ac8, #0666cc33);
+    z-index: -1;
+    border-radius: 2px;
+  }
+
+  .powered {
+    margin-left: 1rem;
+  }
+
+  .social-media-phone {
+    display: flex;
+    gap: 1rem;
+    margin-right: 15rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+}
