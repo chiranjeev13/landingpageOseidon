@@ -1,3 +1,9 @@
+@font-face {
+  font-family: inter;
+  src: url('/src/assests/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+
 .main {
   position: relative;
   width: 100vw;
@@ -30,9 +36,23 @@
   opacity: 100;
 }
 
+
 .video-background-mobile {
   display: none;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  transform: translate(100, 100);
+  width: 100%; 
+  height: 0; 
+  min-height: 100%; 
+  z-index: -1;
+  object-fit: cover; 
+  opacity: 100;
 }
+
+
+
 
 .content {
   display: flex;
@@ -104,13 +124,15 @@
 .main-text {
   font-size: 2.2rem;
   padding-left: 2rem;
+  stroke: 2rem;
   color: white;
   margin-top: 2rem;
   text-align: left;
+  font-family: inter;
 }
 
 .redesign-heading {
-  font-size: 4rem;
+  font-size: 5rem;
   display: inline-block;
   padding-left: 1rem;
   margin: 2rem;
@@ -124,26 +146,28 @@
 }
 
 .redesign-heading {
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: white;
   display: inline-block;
   margin: 2rem 0;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
 
 }
 
 .redesign-text {
-  padding-left: 1rem;
+  padding-left: 1rem; 
   color: transparent;
   -webkit-text-stroke: 0.1rem white;
   -webkit-text-stroke-color: white;
+  display: inline;
+  margin-right: 0rem;
 }
 
 .ben {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin-left: 3.5rem;
+  margin-left: 3.9rem;
 }
 
 .benefits {
@@ -310,6 +334,7 @@
     text-align: left;
     margin-left: 0;
     margin-top: 0;
+
   }
 
   .main-text {

@@ -17,7 +17,6 @@ const Home = () => {
         <video autoPlay loop muted className="video-background-desktop">
           <source src={video} type="video/mp4" />
         </video>
-
         <video autoPlay loop muted className="video-background-mobile">
           <source src={mobilevideo} type="video/mp4" />
         </video>
@@ -74,7 +73,10 @@ const Home = () => {
           Powered by <img src={base} alt="base" />
         </div>
         <div className="social-media-phone">
-          <img src={twitter} alt="twitter" />
+        <a href=""><img src={twitter} alt="twitter" 
+          
+          /></a>
+          
           <img src={telegram} alt="telegram" />
           <img src={discord} alt="discord" />
         </div>
